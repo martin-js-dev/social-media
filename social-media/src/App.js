@@ -1,17 +1,16 @@
-import Nav from './components/Nav.js';
 import Stories from './components/Stories.js';
 import Sidebar from './components/Sidebar.js';
-import Timeline from './components/Timeline';
+import Feed from './components/Feed.js';
 import Chat from './components/Chat.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Nav></Nav>
+    <div className="flex">
+     
       <Stories></Stories>
       <Sidebar></Sidebar>
-      <Timeline></Timeline>
+      <Feed></Feed>
       <Chat></Chat>
     </div>
   );
